@@ -33,12 +33,9 @@ printBtn.addEventListener('click', () => {
 });
 
 document.querySelector('#rest-btn').addEventListener('click', ()=>{
-    let userConfirmation = confirm('Are you sure you want to clear your choices?')
-    if(userConfirmation){
-        window.location.reload()
-        alert('Your definitions were cleared ! ')
-    }
     
+    window.location.reload()
+    alert('Your definitions were cleared ! ')
     
 })
 
